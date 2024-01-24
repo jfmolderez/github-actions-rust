@@ -1,7 +1,7 @@
 use trust::add;
-use trust::sub;
-use trust::mul;
 use trust::div;
+use trust::mul;
+use trust::sub;
 
 #[test]
 fn test_add() {
@@ -22,4 +22,3 @@ fn test_mul() {
 fn test_div() {
     assert_eq!(div(6, 3), 2);
 }
-
